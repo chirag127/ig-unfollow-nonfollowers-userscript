@@ -43,8 +43,22 @@ This drives **your real account**. Bulk unfollowing too fast can trigger a tempo
 
 ## 🧠 Docs
 
-The repo ships an [OKF knowledge bundle](okf/index.md): endpoint notes, design rules and test steps live in [AGENTS.md](AGENTS.md).
+The repo ships an [OKF knowledge bundle](../../../../../docs/okf/index.md): endpoint notes, design rules and test steps live in [AGENTS.md](AGENTS.md).
 
 ## 📄 License
 
 [MIT](LICENSE) © 2026 chirag127
+
+<!-- docs-single-source -->
+## 📚 Documentation
+
+Documentation for this repository lives in the umbrella workspace, in exactly **one** place:
+
+| What | Where |
+|------|-------|
+| This script's note | [`docs/okf/scripts/ig-unfollow-nonfollowers-userscript.md`](../../../../../docs/okf/scripts/ig-unfollow-nonfollowers-userscript.md) |
+| All notes, catalogued | [`docs/okf/index.md`](../../../../../docs/okf/index.md) |
+| Shared knowledge | [`docs/okf/concepts/`](../../../../../docs/okf/concepts/) |
+
+It is **not** copied into this repository. Nothing in this workspace is duplicated: one
+document, one file. Verify with `node c:\ws\scripts\check-okf.mjs`.
